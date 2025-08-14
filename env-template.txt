@@ -1,0 +1,10 @@
+# 复制下面的内容到 .env.local 文件中
+# 注意：将 your_anon_key_here 替换为从 Supabase 复制的实际 anon 密钥
+
+NEXT_PUBLIC_SUPABASE_URL=https://mdnkzndpcmgoasmxgrxt.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
+
+
+
+
+
