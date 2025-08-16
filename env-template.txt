@@ -1,5 +1,14 @@
-# 复制下面的内容到 .env.local 文件中
-# 注意：将 your_anon_key_here 替换为从 Supabase 复制的实际 anon 密钥
+# 美容预约系统环境变量配置
+# 
+# 使用步骤：
+# 1. 复制下面的内容到 .env.local 文件中
+# 2. 将 your_anon_key_here 替换为从 Supabase 复制的实际 anon 密钥
+#
+# 获取 anon 密钥的步骤：
+# 1. 访问 https://app.supabase.com
+# 2. 选择 meirongstore 项目
+# 3. 进入 Settings → API
+# 4. 复制 "anon public" 密钥并替换下面的 your_anon_key_here
 
 NEXT_PUBLIC_SUPABASE_URL=https://mdnkzndpcmgoasmxgrxt.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
